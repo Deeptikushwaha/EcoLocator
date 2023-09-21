@@ -1,0 +1,42 @@
+@import url("https: //fonts.googleapis.com/css?family=Rock+Salt");
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+th,
+td {
+    padding: 20px;
+    border: 1.3px solid #000;
+    /* Add a 1px solid black border to cells */
+}
+
+th {
+    background-color: black;
+    color: white;
+    /* Add a background color to header cells */
+}
+
+thead th:nth-child(1) {
+    width: 15%;
+}
+
+thead th:nth-child(2) {
+    width: 60%;
+}
+
+thead th:nth-child(3) {
+    width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: 6c757d;
+}
+
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}

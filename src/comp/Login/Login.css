@@ -1,0 +1,30 @@
+
+.log {
+    background-color: aliceblue;
+    
+}
+.log h1 {
+    text-align: center;
+    color: rgb(3, 74, 3);
+
+}
+
+.log input[type=text] {
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid rgb(3, 74, 3);
+    cursor: text;
+    align-items: center;
+    margin-left: 37rem;
+}
+
+.log div {
+    background-color: orange;
+    margin-left: 37rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+.log p {
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+.header {
+    background-color: #f7f7f9;
+    color: #000305;
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header ul,
+.profile {
+    font-size: 23.38px;
+    font-weight: 400;
+    display: flex;
+    height: 110px;
+    margin: 8px 82px 0px 0px;
+    align-items: center;
+    width: 558px;
+    list-style: none;
+    gap: 62px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.header ul li {
+    border-bottom: solid #232135;
+}
+
+.header.light {
+    background-color: #303c66;
+    transition: all 2s;
+}
+
+.profile img {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
+
+.header ul li:hover,
+.header ul li:active {
+    color: blue;
+}
+
+.profile {
+    margin-left: 138px;
+}
+
+.theme-switch {
+    color: wheat;
+}
