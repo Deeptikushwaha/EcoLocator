@@ -1,7 +1,4 @@
-.search-location-input {
-  width: 600px;
-  margin: auto;
-}
+
 @import url("https://www.w3schools.com/w3css/4/w3.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,700&family=Raleway:ital,wght@0,200;1,900&family=Victor+Mono:ital,wght@1,100&display=swap');
 
@@ -9,12 +6,15 @@
   margin: 0;
  /* box-sizing: border-box;*/
 }
-
 body {
   font-family: Verdana, sans-serif;
   background-color:#ADC178 /*#181A1B/*#A98467*/;
   color:rgb(3, 74, 3);
   
+}
+.search-location-input {
+  width: 600px;
+  margin: auto;
 }
 .w3-white{
   background-color: #ADC178/*#A98467#181A1B */!important;
@@ -31,12 +31,10 @@ body {
   margin-left: 50%;
   justify-content: space-evenly;
 }
-
 .container {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 .w3-sidebar, .w3-bar-block, .w3-card, .w3-animate-left{
     display: none;
       background-color: darkgreen;
@@ -143,14 +141,6 @@ p {
   display: flex;
   flex-direction: column;
   margin-left: 350px;
-}
-
-.environment {
-  
-}
-
-.impact {
- 
 }
 .impact li{
   list-style: none;
@@ -282,8 +272,6 @@ p {
     font-size: 11px
   }
 }
-
-
 
 .outro {
   display: flex;
