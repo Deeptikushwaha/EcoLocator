@@ -69,7 +69,7 @@ componentDidMount() {
   
   render() {
     
-    const { sidebarOpen } = this.state;
+   const { sidebarOpen } = this.state;
    
    const headingStyle = {
     fontFamily: 'Cabin Sketch, sans-serif',
@@ -82,6 +82,7 @@ componentDidMount() {
   
   //   saveAs(blob, fileName);
   // };
+    
   return(
   <Router>
   <div className="main1"> 
@@ -91,7 +92,6 @@ componentDidMount() {
           </button>
           <a href="#" className="w3-bar-item w3-button">Read About E-waste</a>
           <a href="/first webpage.html/credittable.html" class="w3-bar-item w3-button"target="_main">Credit Rate List</a>
-
       </div>
     <div id="main">
        <div className="w3-white">
@@ -107,8 +107,6 @@ componentDidMount() {
              {/* <a href="/loginpage.html" target="_main" className="login" >
               Log In/Register</a>  */}
              </div>
-             
-              
             <div className="w3-containerw3-black">
             <h1 style={headingStyle}>EcoLocator</h1>
             <img src='/images/logo2g20.webp' alt='deep' />
@@ -118,18 +116,15 @@ componentDidMount() {
           <br />
           <h1 className='mainheading container'> Unlock a Greener Future – Explore E-Waste Solutions on EcoLocator Now!</h1>
          
-          <div className="slideshow-container">
-
+           <div className="slideshow-container">
             <div className="mySlides fade">
             <div className="numbertext">1 / 5</div>
             <img src='/images/1.jpg' className="first" height="400px" alt='deep' />
             </div>
-
            <div className="mySlides fade">
               <div className="numbertext">2 / 5</div>
               <img src="/images/3.png" className="second" height="400px" alt='deep' />
             </div>
-
             <div className="mySlides fade">
               <div className="numbertext">3 / 5</div>
               <img src='/images/2.png' className="third" height="400px" alt='deep' />
@@ -137,7 +132,6 @@ componentDidMount() {
             <div className="mySlides fade">
               <div className="numbertext">4 / 5</div>
               <img src="https://namoewaste.com/wp-content/uploads/2023/04/Namo-Blog_Cover-16.jpg" className="fourth" height="400px" />
-              
             </div>
             <div className="mySlides fade">
               <div className="numbertext"> 5 / 5</div>
@@ -153,8 +147,6 @@ componentDidMount() {
             <span className="dot"></span> 
             <span className="dot"></span> 
           </div> 
-          
-      
      </div> 
 
       <div className='info container'>
@@ -163,42 +155,30 @@ componentDidMount() {
         <hr />
         <p>Welcome to EcoLocator, your one-stop destination for finding environmentally responsible e-waste disposal solutions near you. In an era of rapid technological advancement, electronic devices have become an integral part of our lives, but their disposal poses significant environmental challenges. Our platform is designed to bridge the gap between conscientious consumers and certified e-waste recycling facilities, making it easier than ever to locate and connect with trusted disposal centers. Whether you're a conscientious individual seeking to recycle your old gadgets or a business looking for sustainable disposal options, [Your E-Waste Facility Locator Website] is here to empower you with the knowledge and resources to make eco-friendly choices in managing electronic waste. Join us in our mission to promote a cleaner, greener future by exploring the wealth of information and services our platform has to offer.</p>
           <img src='/images/ewaste-graph.jpg' alt='deep' />
-         </div>
+        </div>
 
         <div className='search-cont'>
-        
             <div className="searchbutton">
-               <Link to="/geom">
+              <Link to="/geom">
               <button className="button">
                  <span className="button-content">Search your nearest E-Waste Facility</span>
               </button>
               </Link>
                <Routes>
-          <Route path="/geom" element={<Geom />} />
-           
-          {/* Add other routes here */}
-        </Routes>
-              
+               <Route path="/geom" element={<Geom />} />
+               </Routes> 
             </div>
         </div>
-       
-       
       </div>
-
        <div>
         <Contactform />
        </div>
-
-
       <div className="outro">
         <p></p>
         <div className="arrow" onClick={()=> animateScroll.scrollToTop()}>
           Scroll to home
         </div> 
       </div>
-      {/* <Route path='/' exact component={App} /> 
-      <Route path="./comp/Geom" component={Geom} />*/}
-
 </div> 
 </Router>
 )}}
